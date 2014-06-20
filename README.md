@@ -11,5 +11,4 @@ mvn deploy:deploy-file -Durl=file:///home/dan/dev/workspace/maven/repositories/t
 2.android.jar   api:19
 mvn deploy:deploy-file -Durl=file:///home/dan/dev/workspace/maven/repositories/thirdparty -Dversion=4.4.2.3 -DgroupId=com.google.android -DartifactId=android -Dfile=android.jar 
 
-3.slidingmenu-1.3.SNAPSHOT.apklib
-mvn deploy:deploy-file -Durl=file:///home/dan/dev/workspace/maven/repositories/thirdparty -Dversion=r13 -DgroupId=com.jeremyfeinstein.slidingmenu -DartifactId=slidingmenu -Dfile=slidingmenu-1.3-SNAPSHOT.apklib
+3.slidingmenu-1.3.SNAPSHOT.aar
