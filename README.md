@@ -33,3 +33,6 @@ mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thir
 8.umeng-update-v2.4.2.jar
 
 mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=umeng-update-v2.4.2.jar -DgroupId=com.umeng -DartifactId=update -Dversion=v2.4.2 -Dpackaging=jar
+
+9.hanmei-book-lib-1.0-SNAPSHOT
+mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=hanmi-book-lib-1.0-SNAPSHOT.jar -DgroupId=com.hanmi.book -DartifactId=hanmi-book-lib -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dsources=hanmi-book-lib-1.0-SNAPSHOT-sources.jar
