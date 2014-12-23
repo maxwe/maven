@@ -3,7 +3,9 @@ Deploy artifact to GitHub maven repository
 
 mvn deploy:deploy-file -Durl=file:///Users/dev/workspace/maven/repositories/xx -Dversion=1.0.0 -DgroupId=xx -DartifactId=xx -Dfile=xx.jar
 ----------
+### Maven
 
+```xml
   <repositories>
     <repository>
       <id>sonatype-nexus-snapshots</id>
@@ -24,6 +26,7 @@ mvn deploy:deploy-file -Durl=file:///Users/dev/workspace/maven/repositories/xx -
       </snapshots>
     </repository>
   </repositories>
+```
   
 
 1.android-support-v13.jar
