@@ -21,3 +21,15 @@ mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thir
 5.netntv_playercore.jar
 
 mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=netntv_playercore.jar -DgroupId=kr.co.netntv -DartifactId=playercore -Dversion=201401223 -Dpackaging=jar
+
+6.umeng-analytics-v5.2.3.jar
+
+mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=umeng-analytics-v5.2.3.jar -DgroupId=com.umeng -DartifactId=analytics -Dversion=v5.2.3 -Dpackaging=jar
+
+7.umeng-fb-v4.3.2.jar
+
+mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=umeng-fb-v4.3.2.jar -DgroupId=com.umeng -DartifactId=fb -Dversion=v4.3.2 -Dpackaging=jar
+
+8.umeng-update-v2.4.2.jar
+
+mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=umeng-update-v2.4.2.jar -DgroupId=com.umeng -DartifactId=update -Dversion=v2.4.2 -Dpackaging=jar
