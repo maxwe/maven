@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>org.maxwe.util</groupId>
-  <artifactId>util-eventbus</artifactId>
+  <artifactId>util-json</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20141223111226</lastUpdated>
+    <lastUpdated>20141223112555</lastUpdated>
   </versioning>
 </metadata>

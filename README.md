@@ -112,7 +112,17 @@ mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thir
 mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=util-eventbus-1.0-SNAPSHOT.jar -DgroupId=org.maxwe.util -DartifactId=util-eventbus -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dsources=util-eventbus-1.0-SNAPSHOT-sources.jar
 
     <dependency>
-      <groupId>com.hanmi.book</groupId>
-      <artifactId>hanmi-book-lib</artifactId>
+      <groupId>org.maxwe.util</groupId>
+      <artifactId>util-eventbus</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+11.util-json-1.0-SNAPSHOT.jar
+
+mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=util-json-1.0-SNAPSHOT.jar -DgroupId=org.maxwe.util -DartifactId=util-json -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dsources=util-json-1.0-SNAPSHOT-sources.jar
+
+    <dependency>
+      <groupId>org.maxwe.util</groupId>
+      <artifactId>util-eventbus</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
