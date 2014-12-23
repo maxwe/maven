@@ -20,4 +20,4 @@ mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thir
 
 5.netntv_playercore.jar
 
-mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=netntv_playercore.jar -DgroupId=kr.co.netntv -DartifactId=playercore -Dversion=201401223 -Dpackaging=jar
+mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=netntv_playercore.jar -DgroupId=kr.co.netntv -DartifactId=playercore -Dversion=2.6.14 -Dpackaging=jar
