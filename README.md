@@ -97,9 +97,19 @@ mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thir
       <version>v2.4.2</version>
     </dependency>
 
-9.hanmei-book-lib-1.0-SNAPSHOT
+9.hanmei-book-lib-1.0-SNAPSHOT.jar
 
 mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=hanmi-book-lib-1.0-SNAPSHOT.jar -DgroupId=com.hanmi.book -DartifactId=hanmi-book-lib -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dsources=hanmi-book-lib-1.0-SNAPSHOT-sources.jar
+
+    <dependency>
+      <groupId>com.hanmi.book</groupId>
+      <artifactId>hanmi-book-lib</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+10.util-eventbus-1.0-SNAPSHOT.jar
+
+mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=util-eventbus-1.0-SNAPSHOT.jar -DgroupId=org.maxwe.util -DartifactId=util-eventbus -Dversion=1.0-SNAPSHOT -Dpackaging=jar -Dsources=util-eventbus-1.0-SNAPSHOT-sources.jar
 
     <dependency>
       <groupId>com.hanmi.book</groupId>
