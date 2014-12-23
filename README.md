@@ -123,6 +123,6 @@ mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thir
 
     <dependency>
       <groupId>org.maxwe.util</groupId>
-      <artifactId>util-eventbus</artifactId>
+      <artifactId>util-json</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
