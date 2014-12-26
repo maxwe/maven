@@ -126,3 +126,14 @@ mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thir
       <artifactId>util-json</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
+
+12.android-support-v4-19.1.+.jar
+
+mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thirdparty -Dfile=support-v4-19.1.0.jar -DgroupId=com.android.support -DartifactId=support-v4 -Dversion=19.1.+ -Dpackaging=jar -Dsources=support-v4-19.1.0-sources.jar -Djavadoc=support-v4-19.1.0-javadoc.jar
+
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>19.1.+</version>
+    </dependency>
+
