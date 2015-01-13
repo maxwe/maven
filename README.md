@@ -137,3 +137,13 @@ mvn deploy:deploy-file -Durl=file:///home/dan/dev/retech/maven/repositories/thir
       <version>19.1.+</version>
     </dependency>
 
+13.BaiduLBS_Android.jar
+
+mvn deploy:deploy-file -Durl=file:///home/glm/dev/workspaces/maven/repositories/thirdparty -Dversion=5.0 -DgroupId=com.baidu.location -DartifactId=baidulbs -Dfile=BaiduLBS_Android.jar
+
+    <dependency>
+      <groupId>com.baidu.location</groupId>
+      <artifactId>baidulbs</artifactId>
+      <version>5.0</version>
+    </dependency>
+
