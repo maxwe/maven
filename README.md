@@ -147,3 +147,22 @@ mvn deploy:deploy-file -Durl=file:///home/glm/dev/workspaces/maven/repositories/
       <version>5.0</version>
     </dependency>
 
+14.playercore.jar 20150211
+
+mvn deploy:deploy-file -Durl=file:///Users/danhantao/dev/workspaces/maxwe/maven/repositories/thirdparty -DgroupId=kr.co.netntv.playercore -DartifactId=playercore -Dversion=1.0 -Dpackaging=jar -Dfile=playercore.jar
+
+
+      <dependency>
+            <groupId>kr.co.netntv.playercore</groupId>
+            <artifactId>playercore</artifactId>
+            <version>1.0</version>
+      </dependency>
+
+15.libGoogleAnalyticServices.jar
+mvn deploy:deploy-file -Durl=file:///Users/danhantao/dev/workspaces/maxwe/maven/repositories/thirdparty -Dfile=libGoogleAnalyticsServices.jar -DgroupId=com.google.android -DartifactId=googleAnalytics -Dversion=1.0 -Dpackaging=jar 
+
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>googleAnalytics</artifactId>
+            <version>1.0</version>
+        </dependency>
