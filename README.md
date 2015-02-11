@@ -166,3 +166,14 @@ mvn deploy:deploy-file -Durl=file:///Users/danhantao/dev/workspaces/maxwe/maven/
             <artifactId>googleAnalytics</artifactId>
             <version>1.0</version>
         </dependency>
+
+16.super-sdk
+mvn deploy:deploy-file -Durl=file:///Users/danhantao/dev/workspaces/maxwe/maven/repositories/thirdparty -Dfile=super-sdk.aar -DgroupId=com.retechcorp.android -DartifactId=super-sdk -Dversion=1.0-SNAPSHOT -Dpackaging=aar
+
+        <dependency>
+            <groupId>com.retechcorp.android</groupId>
+            <artifactId>super-sdk</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>aar</type>
+        </dependency>
+        
