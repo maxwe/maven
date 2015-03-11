@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.chrisbanes.pulltorefresh</groupId>
+  <artifactId>library</artifactId>
+  <versioning>
+    <release>2.1.2-pheth</release>
+    <versions>
+      <version>2.1.2-pheth</version>
+    </versions>
+    <lastUpdated>20150311233700</lastUpdated>
+  </versioning>
+</metadata>
