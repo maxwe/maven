@@ -10,7 +10,7 @@
     </parent>
     <artifactId>android-pdf-mulib</artifactId>
     <version>alpha1.0</version>
-    <packaging>apklib</packaging>
+    <packaging>aar</packaging>
     <name>android-pdf-mulib</name>
 
     <dependencies>
