@@ -95,6 +95,7 @@
                         <platform>19</platform>
                     </sdk>
                     <undeployBeforeDeploy>true</undeployBeforeDeploy>
+                    <failOnConflictingLayouts>false</failOnConflictingLayouts>
                 </configuration>
                 <extensions>true</extensions>
                 <executions>
