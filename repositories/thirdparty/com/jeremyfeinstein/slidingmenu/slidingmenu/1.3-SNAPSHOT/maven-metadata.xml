@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.jeremyfeinstein.slidingmenu</groupId>
+  <artifactId>slidingmenu</artifactId>
+  <version>1.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20140620.120305</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20140620120305</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.3-20140620.120305-2</value>
+        <updated>20140620120305</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.3-20140620.120305-2</value>
+        <updated>20140620120305</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.3-20140620.115720-1</value>
+        <updated>20140620115720</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
