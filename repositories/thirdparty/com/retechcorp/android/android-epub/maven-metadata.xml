@@ -3,10 +3,11 @@
   <groupId>com.retechcorp.android</groupId>
   <artifactId>android-epub</artifactId>
   <versioning>
-    <release>alpha1.1</release>
+    <release>alpha1.2</release>
     <versions>
       <version>alpha1.1</version>
+      <version>alpha1.2</version>
     </versions>
-    <lastUpdated>20150324032453</lastUpdated>
+    <lastUpdated>20150326082751</lastUpdated>
   </versioning>
 </metadata>
