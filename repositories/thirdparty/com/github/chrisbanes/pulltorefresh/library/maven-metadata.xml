@@ -7,6 +7,10 @@
     <versions>
       <version>2.1.2-pheth</version>
     </versions>
+<<<<<<< HEAD
     <lastUpdated>20150311233700</lastUpdated>
+=======
+    <lastUpdated>20150324070639</lastUpdated>
+>>>>>>> 04631c1c7e84d85584cc58bada8504fc2b1896b2
   </versioning>
 </metadata>

@@ -23,6 +23,10 @@
 		</dependency>
 	</dependencies>
 	<build>
+<<<<<<< HEAD
+=======
+        <!--<sourceDirectory>src/</sourceDirectory>-->
+>>>>>>> 04631c1c7e84d85584cc58bada8504fc2b1896b2
 		<plugins>
 			<!--<plugin>-->
 				<!--<groupId>com.jayway.maven.plugins.android.generation2</groupId>-->
@@ -64,8 +68,13 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
+<<<<<<< HEAD
 					<source>1.7</source>
 					<target>1.7</target>
+=======
+					<source>1.6</source>
+					<target>1.6</target>
+>>>>>>> 04631c1c7e84d85584cc58bada8504fc2b1896b2
 				</configuration>
 			</plugin>
 

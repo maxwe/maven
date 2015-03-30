@@ -3,11 +3,19 @@
   <groupId>com.retechcorp.android</groupId>
   <artifactId>super-sdk</artifactId>
   <versioning>
+<<<<<<< HEAD
     <release>beta1.1</release>
     <versions>
       <version>alpha1.0</version>
       <version>beta1.1</version>
     </versions>
     <lastUpdated>20150330030420</lastUpdated>
+=======
+    <release>alpha1.0</release>
+    <versions>
+      <version>alpha1.0</version>
+    </versions>
+    <lastUpdated>20150313063301</lastUpdated>
+>>>>>>> 04631c1c7e84d85584cc58bada8504fc2b1896b2
   </versioning>
 </metadata>
