@@ -5,7 +5,7 @@
 
     <groupId>com.retechcorp.android</groupId>
     <artifactId>android-epub</artifactId>
-    <version>alpha1.1</version>
+    <version>alpha1.3</version>
     <packaging>aar</packaging>
     <name>android-epub</name>
 
