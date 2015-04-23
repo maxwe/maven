@@ -3,7 +3,7 @@
   <groupId>com.retechcorp.android</groupId>
   <artifactId>android-epub</artifactId>
   <versioning>
-    <release>alpha2.3</release>
+    <release>alpha2.4</release>
     <versions>
       <version>alpha1.4</version>
       <version>alpha1.5</version>
@@ -15,7 +15,8 @@
       <version>alpha2.1</version>
       <version>alpha2.2</version>
       <version>alpha2.3</version>
+      <version>alpha2.4</version>
     </versions>
-    <lastUpdated>20150423073214</lastUpdated>
+    <lastUpdated>20150423082744</lastUpdated>
   </versioning>
 </metadata>
