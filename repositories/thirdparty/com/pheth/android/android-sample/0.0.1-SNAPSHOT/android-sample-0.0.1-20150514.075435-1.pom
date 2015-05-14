@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.pheth.android</groupId>
+        <artifactId>module-android</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>android-sample</artifactId>
+
+    <packaging>apk</packaging>
+    <name>android-sample</name>
+
+    <properties>
+
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.pheth.android</groupId>
+            <artifactId>android-update</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <type>aar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.pheth.android</groupId>
+            <artifactId>android-pulltorefresh</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <type>aar</type>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
